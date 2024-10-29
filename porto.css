@@ -69,10 +69,21 @@ body{
 .project{
     position: relative;
     display:flex;
+    justify-content: space-between;
     margin: 20px 0;
     padding: 10px;
     color: #d4e0ff;
-    background: #273864
+    background: #273864;
+    transition: 0.5s;
+}
+
+.project a{
+    text-decoration: none;
+
+}
+.project:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 22);    
+
 }
 .desc{
     margin: 10px;
@@ -80,12 +91,23 @@ body{
     /* background: yellow; */
 }
 .desc h2{
+    text-decoration: none;
+    color: #d4e0ff;
+}
+.desc h2{
     padding-bottom: 20px;
 }
 .desc p{
     font-size: 15px;
+    text-decoration: none;
+    color: #d4e0ff;
 }
-.project a{ 
+.linked{
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.linked a{ 
     /* padding-top: 20px; */
     margin: 20px;
     font-size: 40px;
@@ -93,8 +115,9 @@ body{
     text-decoration: none;
     transition: 1s;
 }
-.project a:hover{
-    color: #b8cbfc;
+.linked a:hover{
+    color: #a4b5e0;
+    text-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 22);    
 }
 .contact-us{
     position: relative;
